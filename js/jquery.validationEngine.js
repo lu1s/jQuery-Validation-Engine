@@ -125,7 +125,6 @@
 						options.onFailure();
 					}
 				}
-			} else if (element.is('form') || element.hasClass('validationEngineContainer')) {
 				element.removeClass('validating');
 			} else {
 				// field validation
